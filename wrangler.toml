@@ -15,3 +15,7 @@ directory = "./public"
 [[routes]]
 pattern = "viterbi.eliascorp.org"
 custom_domain = true
+
+[[routes]]
+pattern = "viterbi.aeliasz.com"
+custom_domain = true
