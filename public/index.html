@@ -12,47 +12,69 @@
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2314151b'/%3E%3Cpath d='M7 22 Q 12 8 16 16 T 25 10' fill='none' stroke='%2396a9f2' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="canonical" href="https://viterbi.aeliasz.com/">
 </head>
-<body>
+<body class="landing">
   <main>
-    <section class="hero">
-      <span class="mono">For Android · S Pen ready</span>
-      <h1 class="display">Viterbi Ink</h1>
-      <svg class="flourish" viewBox="0 0 340 26" aria-hidden="true">
-        <path pathLength="1" d="M6 19 C 60 4, 96 25, 150 14 S 260 2, 334 13" />
-      </svg>
-      <p class="tagline">An infinite canvas that keeps up with your pen.</p>
-      <span class="mono facts">infinite canvas &nbsp;·&nbsp; low-latency ink &nbsp;·&nbsp; optional cloud sync</span>
-      <div class="actions">
-        <a class="pill" href="https://play.google.com/store/apps/details?id=com.viterbi">Get the beta</a>
-        <a class="quiet" href="https://discord.gg/mxqJMxgtPg">Join the Discord community</a>
-        <a class="quiet" href="privacy">Privacy policy</a>
+    <header class="hero">
+      <div class="intro">
+        <p class="mono">For Android · S Pen ready</p>
+        <div class="wordmark">
+          <h1 class="display">Viterbi Ink</h1>
+          <svg class="flourish" viewBox="0 0 340 26" aria-hidden="true"><path pathLength="1" d="M6 19 C 60 4, 96 25, 150 14 S 260 2, 334 13"/></svg>
+        </div>
+        <p class="tagline">An infinite canvas that keeps up with your pen.</p>
+        <a class="beta" href="https://play.google.com/store/apps/details?id=com.viterbi">
+          <img src="media/google-play.svg" width="32" height="36" alt="">
+          <span><strong>Get the beta</strong><small>on Google Play</small></span>
+        </a>
       </div>
-    </section>
-
-    <section class="showcase">
-      <figure class="device">
-        <img src="media/library.webp" width="1800" height="1125" decoding="async"
-             alt="The Viterbi Ink canvas library on a tablet: folders of handwritten canvases and notes on a dark canvas.">
+      <figure class="library">
+        <div class="device"><img src="media/library.webp" width="1800" height="1125" alt="The Viterbi Ink library on an Android tablet, with folders of handwritten notes."></div>
+        <figcaption class="cap">The canvas library · Low-latency ink with optional cloud sync.</figcaption>
       </figure>
-      <span class="cap">The canvas library — every note foldered and searchable, one tap from the pen.</span>
-    </section>
-
+    </header>
     <section class="split">
-      <figure class="device">
-        <img src="media/palette.webp" width="1200" height="750" loading="lazy" decoding="async"
-             alt="Viterbi Ink's Copic-style colour wheel, with Palette and Precise modes.">
-      </figure>
       <div class="split-copy">
         <span class="mono">Colour</span>
         <h2 class="display">A full Copic-style wheel.</h2>
         <p>Every Copic marker code on one dial, with precise hex for the times an ink has to be exact.</p>
       </div>
+      <figure class="device"><img src="media/palette.webp" width="1200" height="750" loading="lazy" alt="Viterbi Ink’s colour wheel with Palette and Precise modes."></figure>
+    </section>
+    <section class="community" aria-labelledby="voices">
+      <h2 class="display" id="voices">From the community</h2>
+      <div class="cards">
+        <figure class="card">
+          <blockquote>“I can stop paying for concepts now”</blockquote>
+          <figcaption>Lily Holmes fake PHD in comrades</figcaption>
+        </figure>
+        <figure class="card">
+          <blockquote>“The zooming and panning is so smooth. Like no other app i've tried before”</blockquote>
+          <figcaption>Raymond</figcaption>
+        </figure>
+        <figure class="card">
+          <blockquote>“I'm already seeing a noticeable improvement in my learning, and this app has genuinely made a difference.”</blockquote>
+          <figcaption>shubham Pawar</figcaption>
+        </figure>
+        <figure class="card">
+          <blockquote>“your app looks absolutely amazing, and it’s exactly what I’ve been looking for!”</blockquote>
+          <figcaption>ByteStorm</figcaption>
+        </figure>
+        <figure class="card">
+          <blockquote>“I just experienced the infitie zoom. nice job Aaron !!”</blockquote>
+          <figcaption>robin el 1</figcaption>
+        </figure>
+        <figure class="card">
+          <blockquote>“the app looks really cool. Very nice.”</blockquote>
+          <figcaption>StephanS</figcaption>
+        </figure>
+      </div>
+      <a class="discord" href="https://discord.gg/mxqJMxgtPg"><img src="media/discord.svg" width="24" height="24" alt="">Join the Discord community</a>
     </section>
   </main>
   <footer>
-    <span class="mono">© 2026 Aaron Elias Zachariah</span>
-    <span class="mono">·</span>
-    <a class="mono" href="mailto:contact@aeliasz.com">contact@aeliasz.com</a>
+    <span>© 2026 Aaron Elias Zachariah</span>
+    <a href="mailto:contact@aeliasz.com">contact@aeliasz.com</a>
+    <a href="privacy">Privacy policy</a>
   </footer>
 </body>
 </html>
